@@ -1,10 +1,9 @@
 pipeline {
 agent any
 environment {
-SERVER_IP      = '172.31.1.200'
-SSH_CREDENTIAL = 'gym-key'
-REPO_URL       = 'https://github.com/your-username/gy
-m-static-website.git'
+SERVER_IP      = '172.31.17.221'
+SSH_CREDENTIAL = 'node-key-app'
+REPO_URL       = 'https://github.com/OmBhamare07/gym-static-website.git'
 BRANCH         = 'main'
 REMOTE_USER    = 'ubuntu'
 REMOTE_PATH    = '/var/www/html'
